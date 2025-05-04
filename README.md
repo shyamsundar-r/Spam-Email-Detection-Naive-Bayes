@@ -3,12 +3,12 @@ This project is a simple spam message classifier built using Python's Scikit-lea
 
 ## Table of Contents
 - [Overview](#Overview)
-- [Technologies Used](#TechnologiesUsed)
+- [Technologies Used](#Technologies-Used)
 - [Dataset](#Dataset)
 - [Installation](#Installation)
 - [Usage](#Usage)
-- [Example Output](#ExampleOutput)
-- [Model Explanation](#ModelExplanation)
+- [Example Output](#Example-Output)
+- [Model Explanation](#Model-Explanation)
 - [Results](#Results)
 - [License](#License)
   
