@@ -1,4 +1,4 @@
-## Spam Detection using Naive Bayes
+## Email Spam Detection using Naive Bayes
 This project is a simple spam message classifier built using Python's Scikit-learn library. It uses a Multinomial Naive Bayes model combined with a Count Vectorizer to classify text messages as either Spam or Ham (Not Spam).
 
 ## Table of Contents
@@ -36,30 +36,25 @@ This project is a simple spam message classifier built using Python's Scikit-lea
 
 ## Installation
 1. Clone the repository:
-''' bash
-git clone https://github.com/your-username/Spam-Detection-NaiveBayes.git
-cd Spam-Detection-NaiveBayes
+   ```bash
+   git clone https://github.com/your-username/Spam-Detection-NaiveBayes.git
+   cd Spam-Detection-NaiveBayes
 
 2. Install required libraries:
-
-```bash
-pip install pandas numpy scikit-learn matplotlib seaborn
+   ```bash
+   pip install pandas numpy scikit-learn matplotlib seaborn
 
 ## Usage
 1. Run the script
 2. After training, enter a message to check if it’s spam or not.
 3. Type exit to quit.
 
-
 ## Example Output
-pgsql
-Copy
-Edit
-Enter a message to check (or type 'exit' to quit): Win a free iPhone now!
-'Win a free iPhone now!' => Spam
-
-Enter a message to check (or type 'exit' to quit): Hello, how are you?
-'Hello, how are you?' => Ham
+    
+    Enter a message to check (or type 'exit' to quit): Win a free iPhone now!
+    'Win a free iPhone now!' => Spam
+    Enter a message to check (or type 'exit' to quit): Hello, how are you?
+    'Hello, how are you?' => Ham
 
 ## Model Explanation
 - Algorithm Used: Multinomial Naive Bayes
