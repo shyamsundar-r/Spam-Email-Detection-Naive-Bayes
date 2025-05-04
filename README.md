@@ -36,17 +36,13 @@ This project is a simple spam message classifier built using Python's Scikit-lea
 
 ## Installation
 1. Clone the repository:
-
-bash
-Copy
-Edit
+''' bash
 git clone https://github.com/your-username/Spam-Detection-NaiveBayes.git
 cd Spam-Detection-NaiveBayes
+
 2. Install required libraries:
 
-bash
-Copy
-Edit
+```bash
 pip install pandas numpy scikit-learn matplotlib seaborn
 
 ## Usage
